@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+button{
+    scale: 0;
+}
+
+.active {
+	scale: 1;
+	transition: scale 250ms;
+}
